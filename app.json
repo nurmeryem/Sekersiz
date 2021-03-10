@@ -1,0 +1,12 @@
+{
+  "name": "Sekersiz",
+  "displayName": "Sekersiz",
+  "expo": {
+    "name": "Sekersiz",
+    "slug": "Sekersiz",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
