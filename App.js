@@ -4,6 +4,7 @@ import {
     Text,
     View,
     Image,
+    Button,
 } from 'react-native';
 
 export default class HomeMenuView extends Component {
@@ -11,121 +12,97 @@ export default class HomeMenuView extends Component {
     render() {
         return (
             <View style={styles.container}>
+
+
                 <View style={styles.menuBox}>
                     <Image style={styles.icon}
-                           source={require("../Sekersiz/android/app/src/main/images/bir.png")}></Image>
+                           source={require("../Sekersiz/android/app/src/main/images/1.png")}></Image>
                     {/*<Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/cottage.png'}}/>*/}
 
                 </View>
 
                 <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/cottage.png'}}/>
-                    <Text style={styles.info}>2</Text>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/2.png")}></Image>
                 </View>
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon}
-                           source={{uri: 'https://img.icons8.com/color/70/000000/administrator-male.png'}}/>
-                    <Text style={styles.info}>3</Text>
+                           source={require("../Sekersiz/android/app/src/main/images/3.png")}></Image>
                 </View>
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon}
-                           source={{uri: 'https://img.icons8.com/color/70/000000/filled-like.png'}}/>
-                    <Text style={styles.info}>4</Text>
+                           source={require("../Sekersiz/android/app/src/main/images/4.png")}></Image>
                 </View>
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon}
-                           source={{uri: 'https://img.icons8.com/color/70/000000/facebook-like.png'}}/>
-                    <Text style={styles.info}>5</Text>
-                </View>
-
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/shutdown.png'}}/>
-                    <Text style={styles.info}>6</Text>
+                           source={require("../Sekersiz/android/app/src/main/images/5.png")}></Image>
                 </View>
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon}
-                           source={{uri: 'https://img.icons8.com/color/70/000000/traffic-jam.png'}}/>
-                    <Text style={styles.info}>7</Text>
+                           source={require("../Sekersiz/android/app/src/main/images/6.png")}></Image>
                 </View>
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon}
-                           source={{uri: 'https://img.icons8.com/dusk/70/000000/visual-game-boy.png'}}/>
-                    <Text style={styles.info}>8</Text>
+                           source={require("../Sekersiz/android/app/src/main/images/7.png")}></Image>
                 </View>
 
                 <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/flat_round/70/000000/cow.png'}}/>
-                    <Text style={styles.info}>9</Text>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/8.png")}></Image>
                 </View>
 
                 <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>10</Text>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/9.png")}></Image>
+                </View>
+
+                <View style={styles.menuBox}>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/10.png")}></Image>
+                </View>
+                <View style={styles.menuBox}>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/11.png")}></Image>
+                </View>
+                <View style={styles.menuBox}>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/12.png")}></Image>
+                </View>
+                <View style={styles.menuBox}>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/13.png")}></Image>
+                </View>
+                <View style={styles.menuBox}>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/14.png")}></Image>
+                </View>
+                <View style={styles.menuBox}>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/14.png")}></Image>
+                </View>
+                <View style={styles.menuBox}>
+                    <Image style={styles.icon}
+                           source={require("../Sekersiz/android/app/src/main/images/14.png")}></Image>
                 </View>
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>10</Text>
                 </View>
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>10</Text>
                 </View>
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>10</Text>
                 </View>
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>10</Text>
                 </View>
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>11</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>12</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>13</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>14</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>15</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>16</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>17</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>18</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>19</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>20</Text>
-                </View>
-                <View style={styles.menuBox}>
-                    <Image style={styles.icon} source={{uri: 'https://img.icons8.com/color/70/000000/coworking.png'}}/>
-                    <Text style={styles.info}>21</Text>
                 </View>
 
 
@@ -136,7 +113,9 @@ export default class HomeMenuView extends Component {
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 35,
+        height: 1000,
+        backgroundColor: "#ffeff6",
+        paddingTop: 70,
         flexDirection: 'row',
         flexWrap: 'wrap',
     },
@@ -149,9 +128,9 @@ const styles = StyleSheet.create({
         margin: 12
     },
     icon: {
-        width: 60,
-        height: 60,
-        backgroundColor: "white",
+        width: 75,
+        height: 75,
+        backgroundColor: "#ffeff6",
     },
     info: {
         fontSize: 22,
