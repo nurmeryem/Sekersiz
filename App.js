@@ -9,6 +9,11 @@ import {Root, Popup} from 'popup-ui'
 
 export default class HomeMenuView extends Component {
 
+    constructor() {
+        super();
+        this.state = {a:false};
+    }
+
     render() {
         return (
             <Root>
